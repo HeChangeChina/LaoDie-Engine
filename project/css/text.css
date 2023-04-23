@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+.TextArea label{
+	margin: 0px 3px;
+	color: rgba(80,160,220,1.00);
+	cursor: pointer;
+}
+.TextArea h1{
+	float: left;
+	display: inline-block;
+	margin: 30px 0px 20px 0px;
+	font-size: 45px;
+	color: rgba(30,30,30,1.00);
+	font-family: "黑体";
+	font-weight: 600;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.TextArea h2{
+	float: left;
+	display: inline-block;
+	margin: 30px 0px 20px 0px;
+	font-size: 30px;
+	color: rgba(45,45,45,1.00);
+	font-family: "黑体";
+	font-weight: 600;
+	width: 100%;
+}
+.TextArea h2::before{
+	content: "";
+	float: left;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-right: 15px;
+	width: 15px;
+	height: 15px;
+	background-color: rgba(230, 180, 80, 1);
+}
+.TextArea h3{
+	float: left;
+	display: inline-block;
+	margin: 20px 0px 10px 0px;
+	font-size: 22px;
+	color: rgba(60,60,60,1.00);
+	font-family: "黑体";
+	width: 100%;
+}
+.TextArea h3::before{
+	content: "";
+	float: left;
+	border-radius: 50%;
+	margin-top: 8px;
+	margin-right: 10px;
+	width: 10px;
+	height: 10px;
+	background-color: rgba(230, 180, 80, 1);
+}
+.TextArea h4{
+	float: left;
+	display: inline-block;
+	margin: 5px 0px 5px 0px;
+	font-size: 18px;
+	color: rgba(90,90,90,1.00);
+	font-family: "黑体";
+	width: 100%;
+}
+.TextArea h4::before{
+	content: "";
+	float: left;
+	border-radius: 50%;
+	margin-top: 3px;
+	margin-right: 40px;
+	width: 8px;
+	height: 8px;
+	background-color: rgba(90, 90, 90, 1);
+}
+.TextArea a::before{
+	content: '';
+	float: left;
+	width: 40px;
+	height: 20px;
+}
+.TextArea a{
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+	color: rgba(90,90,90,1.00);
+}

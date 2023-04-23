@@ -1,0 +1,415 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	text-decoration: none;
+}
+input[type=checkbox]{
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+body{
+	background-color: rgba(225,225,225,1.00);
+	overflow-x: hidden;	
+}
+
+#HeadGuider{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 50;
+	background-color: black;
+	width: calc(100% - 20px);
+	height: 50px;
+	padding: 10px 20px;
+}
+#HeadLogo{
+	float: left;
+	margin-left: 50px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	user-select: none;
+}
+#HeadText{
+	float: left;
+	margin-right: 30px;
+	font-size: 23px;
+	font-family: "黑体";
+	color: rgba(253, 203, 83, 0.6);
+	cursor: pointer;
+	line-height: 50px;
+	user-select: none;
+}
+#HeadMenu{
+	pointer-events: none;
+	opacity: 0;
+	padding: 10px 0px;
+	left: 200px;
+	top: 70px;
+	z-index: 51;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,1.00);
+	position: absolute;
+	box-shadow: 0px 0px 10px rgba(120, 120, 120, 1);
+	width: 230px;
+	overflow: hidden;
+}
+#Footer{
+	float: left;
+	margin-left: -10px;
+	width: calc(100% + 40px);
+	height: 200px;
+	background-color: black;
+}
+#FooterSpan{
+	float: left;
+	width: 1260px;
+	margin: 0px 0px 40px calc(50% - 620px);
+}
+#CopyRight{
+	float: left;
+	width: 600px;
+	padding: 30px 10px;
+}
+#FooterLink{
+	float: left;
+	width: 300px;
+	padding: 30px 10px;
+}
+#FooterDownload{
+	float: left;
+	width: 300px;
+	padding: 30px 10px;
+}
+#FooterSpan a{
+	font-size: 14px;
+	color: rgba(175,175,175,1.00);
+}
+
+
+.FooterLinker{
+	display: inline-block;
+	cursor: pointer;
+	color: rgba(110,180,230,1.00);
+	font-size: 16px;
+	margin: 10px 10px;
+}
+.FooterLinker:hover{
+	text-decoration: underline;
+}
+.ChoiceMenu{
+	float: left;
+	width: 100%;
+	background-color: rgba(30,30,30,1.00);
+	height: 60px;
+}
+.ChoiceMenu label{
+	float: left;
+	padding: 0px 25px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	user-select: none;
+	color: rgba(225,225,225,1.00);
+	cursor: pointer;
+}
+.ChoiceMenu label:hover{
+	background-color: rgba(50,50,50,1.00);
+}
+.ChoiceMenu .Choice{
+	cursor: default;
+	color: rgba(110,180,230,1.00);
+}
+.ChoiceMenu .Choice:hover{
+	background-color: rgba(30,30,30,1.00);
+}
+.HeadImg{
+	float: left;
+	margin-left: -20px;
+	width: calc(100% + 40px);
+	height: 250px;
+	background-image: url("../img/HeadImg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0px 0px 20px rgba(60, 60, 60, 1);
+}
+.HeadImg a{
+	float: left;
+	text-align: center;
+	user-select: none;
+	width: 100%;
+	height: 250px;
+	display: block;
+	line-height: 250px;
+	color: rgba(235,235,235,1.00);
+	text-shadow: 0px 0px 20px rgba(60, 60, 60, 1);
+	font-family: "黑体";
+	font-weight: 600;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
+.CenterPage{
+	float: left;
+	width: 1280px;	
+	background-color: rgba(245,245,245,1.00);
+	margin-left: calc(50% - 620px);
+	min-height: 800px;
+	padding: 80px 0px 80px 0px;;
+}
+.CenterPageDiv{
+	float: left;
+	left: 100%;
+	padding: 0px 40px;
+}
+.AlertBG{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.60);
+	z-index: 100;
+	opacity: 0;
+}
+.AlertDiv{
+	position: fixed;
+	left: calc(50% - 20px);
+	top: calc(50% - 20px);
+	width: 0px;
+	height: 0px;
+	border-radius: 10px;
+	background-color: rgba(220,220,220,1.00);
+	padding: 20px;
+	z-index: 101;
+	overflow: hidden;
+}
+.AlertTextArea{
+	text-align: center;
+	width: 360px;
+	height: 280px;
+	margin-top: 80px;
+	opacity: 0;
+	overflow-y: auto;
+}
+.AlertText{
+	color: rgba(65,65,65,1.00);
+	font-size: 18px;
+}
+.AlertButton{
+	float: right;
+	position: relative;
+	top: -40px;
+	height: 40px;
+	background-color: rgba(220,220,220,1.00);
+	font-size: 22px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	user-select: none;
+	cursor: pointer;
+	color: rgba(100,100,100,1.00);
+	border-radius: 5px;
+}
+.AlertButton:hover{
+	background-color: rgba(180,180,180,1.00);
+}
+.InnerWindow{
+	padding: 20px;
+	margin-left: calc(50% - 220px);
+	background-color: rgba(235,235,235,1.00);
+	width: 400px;
+	height: 350px;
+	box-shadow: 0px 0px 10px rgba(200, 200, 200, 1);
+	border-radius: 10px;
+}
+.InnerHeadSpan{
+	float: left;
+	position: relative;
+	left: -20px;
+	top: -20px;
+	border-radius: 10px 10px 0px 0px;
+	width: calc(100% + 40px);
+	height: 100px;
+	background-image: url("img/InnerHeadImg.png");
+	background-repeat: round;
+}
+.InnerInput{
+	float: left;
+	width: calc(100% - 70px);
+	height: 40px;
+	margin-top: 10px;
+	border: none;
+	border-bottom: solid 3px rgba(200, 180, 160, 1);
+	border-radius: 5px;
+	font-size: 18px;
+	color: rgba(50,50,50,1.00);
+	background-color: rgba(245,245,245,1.00);
+	padding: 5px 15px 5px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 30px 30px;
+}
+.InnerInput:focus{
+	outline: none;
+	border-bottom: solid 3px rgba(230, 180, 80, 1);
+}
+.InnerHr{
+	border: none;
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	background-color: rgba(180,180,180,1.00);
+	height: 2px;
+}
+.InnerSpan{
+	height: 30px;
+	float: left;
+	width: calc(100% - 30px);
+	padding: 5px 15px;
+}
+.InnerLabel{
+	color: rgba(180,180,180,1.00);
+	font-size: 16px;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	user-select: none;
+}
+.InnerButton{
+	float: left;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+	background-color: rgba(230, 180, 80, 1);
+	border-radius: 5px;
+	line-height: 40px;
+	user-select: none;
+	cursor: pointer;
+	color: white;
+}
+.CenterTopic{
+	float: left;
+	width: 100%;
+	font-size: 28px;
+	color: rgba(50,50,50,1.00);
+	text-align: center;
+	user-select: none;
+}
+.Title{
+	float: left;
+	width: 1260px;
+	margin: 80px 0px 40px calc(50% - 620px);
+}
+.Title a{
+	font-family: "黑体";
+	font-size: 40px;
+	color: black;
+	float: left;
+}
+.Title a:before{
+	content: "";
+	display: block;
+	height: 46px;
+	width: 7px;
+	margin-right: 10px;
+	float: left;
+	background-color: rgba(230, 180, 80, 1);
+}
+.HeadDiv{
+	margin-top: 70px;
+	width: calc(100% + 20px);
+	position: relative;
+	left: -10px;
+	height: 250px;
+	background-image: url("img/HeadImg.png");
+	background-repeat: round;
+	box-shadow: 0px 0px 30px rgba(60, 60, 60, 1);
+}
+.HeadDivTopic{
+	margin-top: 70px;
+	font-size: 50px;
+	color: white;
+	font-family: "黑体";
+	float: left;
+	user-select: none;
+	width: 100%;
+	text-align: center;
+}
+.MenuItem{
+	cursor: pointer;
+	padding: 0px 15px;
+	height: 40px;
+	line-height: 40px;
+	user-select: none;
+	float: left;
+	width: 100%;
+	background-color: rgba(200,200,200,0.00);
+	color: rgba(80,80,80,1.00);
+	font-size: 16px;
+}
+.Button{
+	user-select: none;
+	border-radius: 5px;
+	background-color: rgba(253, 203, 83, 1);
+	color: rgba(215,215,215,1.00);
+	width: 196px;
+	height: 50px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	border: solid 2px rgba(220,220,220,0.00)
+}
+.HeadButton{
+	user-select: none;
+	height: 50px;
+	padding: 0px 15px;
+	background-color: rgba(255,255,255,0.00);
+	color: rgba(215,215,215,1.00);
+	font-size: 20px;
+	line-height: 50px;
+	cursor: pointer;
+	text-align: center;
+	float: left;
+}
+.TopicHrefText{
+	float: left;
+	margin-left: 30px;
+	font-size: 20px;
+	color: rgba(180,180,180,1.00);
+	cursor: pointer;
+	user-select: none;
+}
+.LineTips{
+	float: left;
+	width: 100%;
+	padding: 10px 20px;
+	margin-left: -20px;
+	background-color: rgba(230,190,190,1.00);
+	color: rgba(120,120,120,1.00);
+}
+.HrefTips{
+	color: rgba(130,160,215,1.00);
+	cursor: pointer;
+}
+.LoginAccount{
+	padding-left: 5px;
+	border-radius: 3px;
+}
+.LoginAccount:after{
+	content: "";
+	display: block;
+	float: left;
+	margin: -5px 5px 0px 0px;
+	width: 50px;
+	height: 50px;
+	background: url("../img/account.png") no-repeat;
+	background-size: 50px 50px;
+}
+.ContentDiv{
+	float: left;
+	padding: 40px;
+	width: calc(100% - 80px);
+}

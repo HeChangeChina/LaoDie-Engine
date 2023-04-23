@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>老爹引擎-资源商店</title>
+	<link rel="icon" href="img/icon.gif" sizes="64x64">
+	<link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+	<span id="HeadGuider">
+		<span id="MainFrame">
+			<a href="index.html">
+				<img alt="logo" id="HeadLogo" src="img/logo.png">
+			</a>
+			<a id="HeadText" href="index.html">老爹引擎</a>
+			<label class="HeadButton" data-menu="免费资源 assetstore.html 精选资源 assetstore.html 促销活动 assetstore.html 资源分类 assetstore.html" data-jump="assetstore.html">资源商店</label>
+			<label class="HeadButton" data-menu="个人版手册 usermanual.html 专业版手册 usermanual.html 企业版手册 usermanual.html" data-jump="usermanual.html">老爹开发手册</label>
+			<label class="HeadButton" data-menu="常见问题 help.html" data-jump="help.html">帮助</label>
+			<label class="HeadButton" data-menu="老爹引擎个人版 products.html?item=LaoDiePer 老爹引擎专业版 products.html?item=LaoDiePro 老爹引擎企业版 products.html?item=LaoDieCom Multiplay托管服务 products.html?item=Multi 老爹分发平台 products.html?item=Publi" data-jump="products.html">产品列表</label>
+			<label id="Login" class="HeadButton" style="float: right; margin-right: 80px;" data-jump="login.html">登录</label>
+		</span>
+	</span>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.rotate.js"></script>
+	<script type="text/javascript" src="js/components.js"></script>
+	<script>
+		CustomAlert("提示", "资源商店没做完，正在返回首页", function(){
+			window.location.href = "index.html";
+		})
+	</script>
+</body>
+</html>

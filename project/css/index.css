@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	overflow-x: hidden !important;	
+	overflow-y: auto;
+	background-color: rgba(240, 240, 240, 1.00) !important;
+}
+body::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	/*scrollbar-arrow-color:red;*/
+}
+body::-webkit-scrollbar-thumb {
+	border-radius: 6px;
+	background: rgba(255,255,255,0.5);
+}
+body::-webkit-scrollbar-track {
+	/*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
+	border-radius: 0;
+	background: rgba(0,0,0,1.0);
+}
+
+hr{
+	background-color: rgba(253, 203, 83, 1);
+	height: 3px;
+	border: none;
+}
+
+#RightGuider{
+	position: fixed;
+	right: 60px;
+	height: 600px;
+	width: 60px;
+	background-color: rgba(255,255,255,0.30);
+	top: calc(50% - 300px);
+}
+#Page002{
+	position: absolute;
+	top: calc(100% + 40px);
+	left: 0px;
+	width: 100%;
+}
+#CareerInfo{
+	float: left;
+	width: 1280px;
+	margin-left: calc(50% - 640px);
+	/*background-color: rgba(130,130,130,1.00);*/
+}
+#BackgroundCanvas{
+	left: -5px;
+	top: -5px;
+	width: calc(100% + 40px);
+	height: calc(100% + 5px);
+	border-bottom: solid 25px rgba(140,140,140,1.00);
+	position: absolute;
+}
+#LaoDieHeadTopic{
+	user-select: none;
+	position: absolute;
+	top: 25%;
+	left: calc(50% - 167px);
+	text-align: center;
+	font-family: "方正姚体";
+	font-size: 85px;
+	color: rgba(255,255,255,1.00);
+}
+#SubTitle{
+	user-select: none;
+	position: absolute;
+	top: calc(25% + 150px);
+	left: calc(50% - 175px);
+	text-align: center;
+	font-size: 40px;
+	color: rgba(255,255,255,1.00);
+	opacity: 0.4;
+}
+#TopicLogo{
+	position: absolute;
+	opacity: 0.4;
+	top: calc(25% - 150px);
+	left: calc(50% - 150px);
+	user-select: none;
+}
+#TopicHr{
+	position: absolute;
+	top: calc(25% + 120px);
+	width: 800px;
+	left: calc(50% - 400px);
+	opacity: 0.4;
+	background-color: rgba(255, 255, 255, 1);
+	background-image: linear-gradient(to right, black , white, black);
+}
+#DownLoad{
+	position: absolute;
+	left: calc(50% - 175px);
+	top: calc(25% + 270px);
+	user-select: none;
+	border-radius: 5px;
+	background-color: rgba(200, 130, 80, 1);
+	color: rgba(230,230,230,1.00);
+	width: 346px;
+	height: 40px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+}
+#LearnMore{
+	position: absolute;
+	left: calc(50% - 100px);
+	top: calc(25% + 340px);
+	user-select: none;
+	text-align: center;
+	width: 200px;
+	cursor: pointer;
+	color: rgba(180,180,180,1.00);
+	font-size: 20px;
+	font-family: '黑体';
+	margin: 0px;
+}
+#TopicHrefSpan{
+	position: absolute;
+	width: calc(100% - 40px);
+	padding: 20px 10px;
+}
+#Message{
+	float: left;
+	width: 1260px;
+	margin: 0px 0px 40px calc(50% - 620px);
+	
+}
+#MinMessageSpan{
+	float: left;
+	width: 100%;
+	height: 170px;
+}
+#ServeDiv{
+	float: left;
+	margin-left: -10px;
+	width: calc(100% + 40px);
+	height: 670px;
+	background-color: black;
+	margin-top: 50px;
+	background-image: url("../img/laodieserve.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#ServeSpan{
+	float: left;
+	width: 1260px;
+	margin: 0px 0px 40px calc(50% - 620px);
+	padding: 0px 0px 50px 0px;
+}
+.ServeTitle{
+	float: left;
+	width: calc(100% - 50px);
+	padding: 0px 25px;
+	margin-top: 20px;
+	height: 80px;
+	color: rgba(230,230,230,1.00);
+	font-size: 28px;
+	font-family: "黑体";
+	font-weight: 500;
+}
+.ServeLearnMore{
+	cursor: pointer;
+	float: left;
+	margin-top: 15px;
+	padding: 0px 25px;
+	font-size: 18px;
+	color: rgba(100,170,230,1.00);
+}
+.ServeItem a{
+	font-size: 16px;
+	float: left;
+	display: block;
+	width: calc(100% - 50px);
+	margin-top: 0px;
+	padding: 0px 25px;
+	height: 100px;
+	color: rgba(180,180,180,1.00);
+}
+.ServeImg{
+	float: left;
+	width: 100%;
+	height: 160px;
+	background-position: center;
+	background-size: cover;
+}
+.ServeItem{
+	overflow: hidden;
+	float: left;
+	width: calc(25% - 30px);
+	margin: 15px;
+	height: 430px;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1.00);
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.10);
+}
+.MessageItemTitle{
+	font-weight: 800;
+	line-height: 80px;
+	margin-left: 15px;
+	font-size: 40px;
+	font-family: "黑体";
+	user-select: none;
+	pointer-events: none;
+	color: white;
+	float: left;
+	width: 100%;
+}
+.MessageItemSpan{
+	position: relative;
+	top: 330px;
+	width: 500px;
+	height: 160px;
+}
+.MessageTopicItem{
+	margin-left: 0px !important;
+	width: 800px !important;
+	height: 500px !important;
+}
+.MessageNormalItem{
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+	width: 415px !important;
+	height: 240px !important;
+}
+.MessageItemMask{
+	padding: 20px;
+	width: calc(100% - 40px) !important;
+	height: calc(100% - 40px) !important;
+}
+.MessageHr{
+	width: 100%;
+	height: 5px;
+	background-color: rgba(230,230,230,1.00);
+	border: none;
+}
+.MinMessage{
+	vertical-align: top;
+	display: inline-block;
+	width: 290px;
+	height: 150px;
+	padding: 10px;
+	cursor: pointer;
+}
+.MinMessage a{
+	font-size: 14px;
+}
+.MinMessgaeImg{
+	margin-right: 10px;
+	width: 130px;
+	height: 150px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.MinMessageTitle{
+	font-size: 18px !important;
+	font-weight: 600;
+	display: block;
+	margin-bottom: 7px;
+}
+.CareerItem{
+	border-radius: 10px;
+	width: 280px;
+	height: 160px;
+	margin: 20px;
+	display: block;
+	float: left;
+	background-size: cover;
+}
+.CareerMask{
+	border-radius: 10px;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.20);
+	cursor: pointer;
+}
+.CareerTitle{
+	line-height: 60px;
+	margin-left: 15px;
+	font-size: 26px;
+	font-family: "黑体";
+	user-select: none;
+	pointer-events: none;
+	color: white;
+	float: left;
+	width: 100%;
+}
+.CareerContent{
+	float: left;
+	line-height: 30px;
+	margin: 0px 15px;
+	font-size: 20px;
+	user-select: none;
+	pointer-events: none;
+	color: white;
+}
+.RightGuiderItem{
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	user-select: none;
+	text-align: center;
+	color: rgba(200, 130, 80, 1);
+	line-height: 60px;
+	background-color: rgba(200, 130, 80, 0);
+	border: solid 2px rgba(200, 130, 80, 1);
+}
+.RightGuiderHr{
+	float: left;
+	width: 2px;
+	height: 40px;
+	margin: 0px 29px;
+	background-color: rgba(200, 130, 80, 1);
+}
+
+
+

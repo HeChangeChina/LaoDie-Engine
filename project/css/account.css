@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+#HeadImg{
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	background-image: url("../img/account.png");
+	background-size: cover;
+	background-position: 0px -25px;
+	background-repeat: no-repeat;
+}
+#PermitInfo{
+	float: left;
+	margin: 20px 40px;
+	padding: 15px;
+	width: calc(100% - 110px);
+	height: 520px;
+	border-radius: 10px;
+	overflow-y: auto;
+	background-color: rgba(240,240,240,1.00);
+}
+#AccountInfo{
+	float: left;
+	padding: 0px 40px;
+	width: calc(100% - 80px);
+}
+#AccountName{
+	float: left;
+	font-size: 40px;
+	font-family: "黑体";
+	font-weight: 550;
+	color: rgba(45,45,45,1.00);
+	margin-right: 8px;
+}
+#AccountInnerSpan{
+	float: left;
+	padding: 30px 10px 10px 20px;
+	width: 960px;
+}
+#Account{
+	line-height: 45px;
+	float: left;
+	font-size: 26px;
+	font-family: "黑体";
+	color: rgba(110,110,110,1.00);
+}
+#LevelSpan{
+	float: left;
+	width: 1000px;
+	height: 5px;
+	background-color: rgba(180,180,180,1.00);
+}
+#LevelInnerSpan{
+	float: right;
+	padding: 0px 20px;
+}
+#LevelTopic{
+	user-select: none;
+	font-size: 26px;
+	font-family: "黑体";
+	color: rgba(110,110,110,1.00);
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+#Level{
+	user-select: none;
+	font-size: 50px;
+	font-family: "黑体";
+	color: rgba(60,60,60,1.00);
+}
+#PermitTitle{
+	display: block;
+	font-size: 35px;
+	font-family: "黑体";
+	color: rgba(45,45,45,1.00);
+	float: left;
+	width: calc(100% - 80px);
+	padding: 0px 40px;
+	margin-top: 20px;
+	
+}
+#PermitTitle::before{
+	content: "";
+	margin-right: 10px;
+	float: left;
+	width: 6px;
+	height: 40px;
+	background-color: rgba(230, 180, 80, 1);
+	display: inline-block;
+}
+#Logout{
+	float: right;
+	color: rgba(220,70,70,1.00);
+	cursor: pointer;
+	user-select: none;
+	font-size: 20px;
+}
+.PermitItem{
+	float: left;
+	background-color: rgba(245,245,245,1.00);
+	background-image: url("../img/chosen.png");
+	background-size: 90px 90px;
+	background-position: -10px -10px;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 10px 0px rgba(200, 200, 200, 1.00);
+	height: 50px;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin: 15px;
+}
+.PermitItem a{
+	font-size: 22px;
+	line-height: 50px;
+	user-select: none;
+	margin-right: 20px;
+}
+.PermitItem label{
+	font-size: 22px;
+	line-height: 50px;
+	user-select: none;
+	color: rgba(220,70,70,1.00);
+	cursor: pointer;
+}
+.AccountTip{
+	float: left;
+	user-select: none;
+	margin-right: 20px;
+	font-size: 30px;
+	color: rgba(160,160,160,1.00);
+}
+

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>老爹引擎-注册</title>
+	<link rel="icon" href="img/icon.gif" sizes="64x64">
+	<link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+	<span id="HeadGuider">
+		<span id="MainFrame">
+			<a href="index.html">
+				<img alt="logo" id="HeadLogo" src="img/logo.png">
+			</a>
+			<a id="HeadText" href="index.html">老爹引擎</a>
+			<label class="HeadButton" data-menu="免费资源 111 精选资源 111 促销活动 111 资源分类 111">资源商店</label>
+			<label class="HeadButton" data-menu="个人版手册 111 专业版手册 111 企业版手册 111">老爹开发手册</label>
+			<label class="HeadButton" data-menu="常见问题 111">帮助</label>
+			<label class="HeadButton" data-menu="老爹引擎个人版 111 老爹引擎专业版 111 老爹引擎企业版 111 老爹云服务 111 老爹分发平台 111" data-jump="products.html">产品列表</label>
+			<label id="Login" class="HeadButton" style="float: right; margin-right: 80px;" data-jump="login.html">登录</label>
+		</span>
+	</span>
+	<div class="InnerWindow" style="margin-top: 200px; height: 490px;">
+		<a class="CenterTopic" style="margin-bottom: 30px;">注册您的老爹账号</a>
+		<!--hr class="InnerHr"-->
+		<div style="height: 350px;">
+			<input type="text" id="LogonName" class="InnerInput" placeholder="账号名称" style="padding-left: 20px; width: calc(100% - 40px);">
+			<input type="text" id="LogonAccount" class="InnerInput" placeholder="账号" style="background-image: url('img/icon_people.png')">
+			<input type="password" id="LogonPassWord" class="InnerInput" placeholder="密码" style="background-image: url('img/icon_lock.png')">
+			<input type="password" id="ConfirmPassWord" class="InnerInput" placeholder="再次确认密码" style="background-image: url('img/icon_lock.png')">
+		</div>
+		<span class="LineTips" id="AgreementLine">
+			<input type="checkbox" id="Agreement"><a>我已阅读并同意<a class="HrefTips">《老爹账号服务条款》</a>以及<a class="HrefTips">《隐私政策》</a></a>
+		</span>
+		<span class="InnerSpan">
+			<label class="InnerLabel" style="float: left;" data-jump="login.html">登录</label>
+			<label class="InnerLabel" style="float: right;">忘记密码</label>
+		</span>
+		<label id="Logon" class="InnerButton">注册</label>
+		
+	</div>
+</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.rotate.js"></script>
+	<script type="text/javascript" src="js/components.js"></script>
+	<script type="text/javascript" src="js/logon.js"></script>
+</html>

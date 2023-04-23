@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>老爹开发手册</title>
+	<link rel="icon" href="img/icon.gif" sizes="64x64">
+	<link rel="stylesheet" href="css/components.css">
+	<link rel="stylesheet" href="css/text.css">
+	<link rel="stylesheet" href="css/usermanual.css">
+</head>
+
+<body>
+	<span id="HeadGuider">
+		<span id="MainFrame">
+			<a href="index.html">
+				<img alt="logo" id="HeadLogo" src="img/logo.png">
+			</a>
+			<a id="HeadText" href="index.html">老爹引擎</a>
+			<label class="HeadButton" data-menu="免费资源 assetstore.html 精选资源 assetstore.html 促销活动 assetstore.html 资源分类 assetstore.html" data-jump="assetstore.html">资源商店</label>
+			<label class="HeadButton" data-menu="个人版手册 usermanual.html 专业版手册 usermanual.html 企业版手册 usermanual.html" data-jump="usermanual.html">老爹开发手册</label>
+			<label class="HeadButton" data-menu="常见问题 help.html" data-jump="help.html">帮助</label>
+			<label class="HeadButton" data-menu="老爹引擎个人版 products.html?item=LaoDiePer 老爹引擎专业版 products.html?item=LaoDiePro 老爹引擎企业版 products.html?item=LaoDieCom Multiplay托管服务 products.html?item=Multi 老爹分发平台 products.html?item=Publi" data-jump="products.html">产品列表</label>
+			<label id="Login" class="HeadButton" style="float: right; margin-right: 80px;" data-jump="login.html">登录</label>
+		</span>
+	</span>
+	<div class="CenterPage">
+		<label id="ChangeVersion">老爹引擎个人版2021.12f</label>
+		<div class="TextArea">
+			<h1>老爹开发手册2021.12f (LTS)</h1>
+		</div>
+		<span class="ChapterChange">
+			<label class="ChapterButton" style="float: left">←</label>
+			<label class="ChapterButton" style="float: right">→</label>
+		</span>
+		<div class="ContentDiv">
+			<div class="TextArea ChapterGuider">
+				<input type="text" placeholder="搜索用户手册" class="Search">
+				<label class="SearchImg"></label>
+				<h1>老爹开发手册2021.12f (LTS)</h1>
+				<h2>文档版本</h2>
+				<h2>在不同版本切换</h2>
+				<h2>离线文档</h2>
+				<h1>老爹引擎2021.12f新功能</h1>
+				<h1>包</h1>
+				<h2>已验证包</h2>
+				<h2>预览包</h2>
+				<h2>核心包</h2>
+				<h2>内置包</h2>
+				<h2>老爹包管理器</h2>
+				<h2>创建自定义包</h2>
+				<h1>在老爹引擎中操作</h1>
+				<h2>安装老爹引擎</h2>
+				<h2>升级老爹引擎</h2>
+				<h2>老爹引擎的界面</h2>
+				<h2>创建游戏玩法</h2>
+				<h2>编辑器功能</h2>
+				<h2>分析</h2>
+				<h1>资源工作流程</h1>
+				<h2>导入</h2>
+				<h2>支持的资源类型</h2>
+				<h2>资源元数据</h2>
+				<h2>资源数据库</h2>
+				<h2>特殊文件夹名称</h2>
+				<h2>预设</h2>
+				<h2>AssetBundle</h2>
+				<h2>脚本与资源</h2>
+				<h2>资源包</h2>
+				<h1>输入</h1>
+				<h2>Input Manager</h2>
+				<h2>移动设备输入</h2>
+				<h2>老爹 XR 输入</h2>
+			</div>
+			<div class="TextArea ChapterContent">
+				<a>使用 老爹引擎 编辑器可创建 2D 和 3D 游戏、应用程序和体验。从 laodie.com 下载编辑器。</a>
+				<a>老爹引擎 用户手册可帮助您了解如何使用 老爹引擎编辑器 及其相关服务。您可以从头到尾阅读该手册，或将其用作参考。</a>
+				<a>如果这是第一次使用 老爹引擎，请查看有关使用 老爹引擎 的介绍性文档，并参阅 老爹引擎 Learn。</a>
+				<h3>新增功能</h3>
+				<h4>2021 技术周期中引入的功能：<label>2021 中的新功能</label></h4>
+				<h4>从旧版 老爹引擎 升级 老爹引擎 项目：<label>升级指南</label></h4>
+				<h3>包</h3>
+				<h4>了解包：<label>使用 Package Manager</label></h4>
+				<h4>查找特定包的文档：<label>已验证包</label>和<label>预览包</label></h4>
+				<h4>了解如何构建自定义包：<label>创建自定义包</label></h4>
+				<h3>老爹用户手册组成部分</h3>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item001.jpg')"></span>
+					<label>在 老爹引擎 中操作</label>
+					<a>老爹编辑器 的完整介绍</a>
+				</span>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item002.jpg')"></span>
+					<label>老爹引擎 2D</label>
+					<a>老爹编辑器 的所有 2D 特定功能，包括游戏运行过程、精灵和物理系统。</a>
+				</span>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item003.jpg')"></span>
+					<label>图形</label>
+					<a>老爹编辑器 的视觉因素，包括摄像机和光照。</a>
+				</span>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item004.jpg')"></span>
+					<label>网络</label>
+					<a>模拟 3D 运动、质量、重力和碰撞。</a>
+				</span>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item005.png')"></span>
+					<label>在 老爹引擎 中操作</label>
+					<a>如何实现玩家多人联网和网络。</a>
+				</span>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item006.jpg')"></span>
+					<label>脚本</label>
+					<a>使用 老爹编辑器 中的脚本进行游戏编程。</a>
+				</span>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item007.jpg')"></span>
+					<label>音频</label>
+					<a>老爹编辑器 中的音频，包括剪辑、音频源、监听器、导入和声音设置。</a>
+				</span>
+				<span class="ImgItem">
+					<span style="background-image: url('img/item008.jpg')"></span>
+					<label>动画</label>
+					<a>老爹编辑器 中的动画。</a>
+				</span>
+				<h3>已知问题</h3>
+				<a>该功能不能按预期工作？这可能是已知问题。请检查 问题跟踪系统 (Issue Tracker)__：<label>issuetracker.laodie.com</label>。</a>
+			</div>
+		</div>
+		<span class="ChapterChange">
+			<label class="ChapterButton" style="float: left">←</label>
+			<label class="ChapterButton" style="float: right">→</label>
+		</span>
+	</div>
+	<div id="Footer">
+		<span id="FooterSpan">
+			<span id="CopyRight">
+				<a>
+					Copyright © 2021 laodie Technologies 老爹软件（广东）有限公司 版权所有<br><br>
+					"laodie"、老爹 徽标及其他 老爹 商标是 laodie Technologies 或其附属机构在中国及其他地区的商标或注册商标。其他名称或品牌是其各自所有者的商标。
+				</a><br>
+				<img src="img/copyright.png" alt=""><br>
+				<a>公安部备案号: <a style="color: rgba(110,180,230,1.00)">310XXXXXXXXXXX</a></a>
+			</span>
+			<span id="FooterLink">
+				<label class="FooterLinker">法律条款</label>
+				<label class="FooterLinker">隐私政策</label>
+				<label class="FooterLinker">Cookies</label>
+				<label class="FooterLinker">粤ICP备13XXXXXX号-X</label><br>
+				<label class="FooterLinker">联系我们</label>
+				<label class="FooterLinker">校园招聘</label>
+			</span>
+			<span id="FooterDownload">
+				<a>下载不同版本的 老爹引擎：</a><br>
+				<label class="FooterLinker" data-jump="products.html?item=LaoDiePer">老爹引擎个人版</label>
+				<label class="FooterLinker" data-jump="products.html?item=LaoDiePro">老爹引擎专业版</label>
+				<label class="FooterLinker" data-jump="products.html?item=LaoDieCom">老爹引擎企业版</label>
+			</span>
+		</span>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.rotate.js"></script>
+	<script type="text/javascript" src="js/components.js"></script>
+</body>
+</html>

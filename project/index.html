@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="icon" href="img/icon.gif" sizes="64x64">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/components.css">
+<title>老爹引擎-游戏开发新时代</title>
+</head>
+
+<body>
+	<div id="WelcomePage">
+		<canvas id="BackgroundCanvas"></canvas>
+		<img alt="" src="img/logo.png" id="TopicLogo">
+		<label id="LaoDieHeadTopic">老爹引擎</label>
+		<hr id="TopicHr">
+		<label id="SubTitle">游 戏 开 发 新 时 代</label>
+		<label id="DownLoad" class="Button" data-jump="products.html?item=LaoDiePer">使用老爹引擎创作</label>
+		<label id="LearnMore" class="TopicHrefText">了解更多 ⇓</label>
+		<span id="TopicHrefSpan">
+			<label class="TopicHrefText" data-menu="免费资源 assetstore.html 精选资源 assetstore.html 促销活动 assetstore.html 资源分类 assetstore.html" data-jump="assetstore.html">资源商店</label>
+			<label class="TopicHrefText" data-menu="个人版手册 usermanual.html 专业版手册 usermanual.html 企业版手册 usermanual.html" data-jump="usermanual.html">老爹开发手册</label>
+			<label class="TopicHrefText" data-menu="常见问题 help.html" data-jump="help.html">帮助</label>
+			<label class="TopicHrefText" data-menu="老爹引擎个人版 products.html?item=LaoDiePer 老爹引擎专业版 products.html?item=LaoDiePro 老爹引擎企业版 products.html?item=LaoDieCom Multiplay托管服务 products.html?item=Multi 老爹分发平台 products.html?item=Publi" data-jump="products.html">产品列表</label>
+			<label id="LoginWelcomePage" class="TopicHrefText" style="float: right; margin-right: 30px;" data-jump="login.html">登录</label>
+		</span>
+	</div>
+	<!--div id="RightGuider">
+		<label class="RightGuiderItem">首页</label>
+		<span class="RightGuiderHr"></span>
+		<label class="RightGuiderItem">最新消息</label>
+		<span class="RightGuiderHr"></span>
+		<label class="RightGuiderItem">案例</label>
+		<span class="RightGuiderHr"></span>
+		<label class="RightGuiderItem">老爹服务</label>
+	</div-->
+	<span id="HeadGuider" style="top: -70px;">
+		<span id="MainFrame">
+			<a href="index.html">
+				<img alt="logo" id="HeadLogo" src="img/logo.png">
+			</a>
+			<a id="HeadText" href="index.html">老爹引擎</a>
+			<label class="HeadButton" data-menu="免费资源 assetstore.html 精选资源 assetstore.html 促销活动 assetstore.html 资源分类 assetstore.html" data-jump="assetstore.html">资源商店</label>
+			<label class="HeadButton" data-menu="个人版手册 usermanual.html 专业版手册 usermanual.html 企业版手册 usermanual.html" data-jump="usermanual.html">老爹开发手册</label>
+			<label class="HeadButton" data-menu="常见问题 help.html" data-jump="help.html">帮助</label>
+			<label class="HeadButton" data-menu="老爹引擎个人版 products.html?item=LaoDiePer 老爹引擎专业版 products.html?item=LaoDiePro 老爹引擎企业版 products.html?item=LaoDieCom Multiplay托管服务 products.html?item=Multi 老爹分发平台 products.html?item=Publi" data-jump="products.html">产品列表</label>
+			<label id="Login" class="HeadButton" style="float: right; margin-right: 80px;" data-jump="login.html">登录</label>
+		</span>
+	</span>
+	<div id="Page002">
+		<div id="CareerInfo">
+			<span class="CareerItem" style="background-image: url('img/genshin.jpeg')">
+				<div class="CareerMask">
+					<a class="CareerTitle">游戏</a>
+					<a class="CareerContent">制作移动端、pc、主机、AR/VR以及即时游戏</a>
+				</div>
+			</span>
+			<span class="CareerItem" style="background-image: url('img/carmaking.jpeg')">
+				<div class="CareerMask">
+					<a class="CareerTitle">汽车、运输与制造</a>
+					<a class="CareerContent">运用实时3d技术在快速变化的行业局势中取得竞争优势</a>
+				</div>
+			</span>
+			<span class="CareerItem" style="background-image: url('img/movie.jpeg')">
+				<div class="CareerMask">
+					<a class="CareerTitle">电影与动画</a>
+					<a class="CareerContent">运用实时创作加快动画创作流程并提高创作自由度</a>
+				</div>
+			</span>
+			<span class="CareerItem" style="background-image: url('img/building.jpeg')">
+				<div class="CareerMask">
+					<a class="CareerTitle">建筑、工程与施工</a>
+					<a class="CareerContent">为大规模的现实生活应用情形创建沉浸式3D模型体验</a>
+				</div>
+			</span>
+		</div>
+		<div class="Title"><a>最新消息</a></div>
+		<div id="Message">
+			<span class="MessageTopicItem CareerItem" style="background-image: url('img/update.jpeg')">
+				<div class="CareerMask MessageItemMask">
+					<span class="MessageItemSpan">
+						<a class="MessageItemTitle">老爹引擎新版本</a>
+						<a class="CareerContent">老爹引擎2021.12a专业版本已发布，新增了光追计算beta组件</a>
+					</span>
+				</div>
+			</span>
+			<span class="CareerItem MessageNormalItem" style="background-image: url('img/yuanmo.jpeg')">
+				<div class="CareerMask">
+					<a class="CareerTitle" style="margin-top: 100px">老爹最受欢迎游戏2021排行</a>
+					<a class="CareerContent">使用老爹引擎开发的，最受玩家喜爱的10款游戏排名</a>
+				</div>
+			</span>
+			<span class="CareerItem MessageNormalItem" style="background-image: url('img/xinxing.jpeg')">
+				<div class="CareerMask">
+					<a class="CareerTitle" style="margin-top: 100px">老爹-新星计划</a>
+					<a class="CareerContent">向老爹递交申请，免费获得专业素材包使用权与游戏分成政策优惠。</a>
+				</div>
+			</span>
+			<span style="float: left; height: 50px; width: 50px;"></span>
+			<hr class="MessageHr">
+			<span id="MinMessageSpan">
+				<span class="MinMessage">
+					<label class="MinMessgaeImg" style="background-image: url('img/gamereport.png')"></label>
+					<a class="MinMessageTitle">2021实时游戏现况报告</a>
+					<a>老爹 和 Akamai 分析了内容对实时游戏的影响及主要策略</a>
+				</span>
+				<span class="MinMessage">
+					<label class="MinMessgaeImg" style="background-image: url('img/discount.png')"></label>
+					<a class="MinMessageTitle">老爹资源商店5折促销活动</a>
+					<a>活动截止时间为北京时间2022年1月15日15:59，请访问资源商店首页了解详情</a>
+				</span>
+				<span class="MinMessage">
+					<label class="MinMessgaeImg" style="background-image: url('img/laodiemessage.png')"></label>
+					<a class="MinMessageTitle">中国老爹技术分享大会</a>
+					<a>游戏、工业、传媒娱乐等技术、案例分享，点击观看相关视频</a>
+				</span>
+				<span class="MinMessage">
+					<label class="MinMessgaeImg" style="background-image: url('img/teaching.jpeg')"></label>
+					<a class="MinMessageTitle">最新中文教程</a>
+					<a>老爹明星讲师手把手带你从入门到精通</a>
+				</span>
+			</span>
+			<hr class="MessageHr">
+		</div>
+		<div id="ServeDiv">
+			<span id="ServeSpan">
+				<div class="Title">
+					<a style="color: white">老爹游戏服务</a>
+				</div>
+				<span class="ServeItem">
+					<label class="ServeImg" style="background-image: url('img/serve001.jpeg')"></label>
+					<label class="ServeTitle">Multiplay 游戏托管服务</label>
+					<a>由全球游戏领域资深团队诚意打造的专业游戏托管服务，让您的游戏上线和运营从此高枕无忧</a>
+					<label class="ServeLearnMore">了解详情</label>
+				</span>
+				<span class="ServeItem">
+					<label class="ServeImg" style="background-image: url('img/serve002.jpeg')"></label>
+					<label class="ServeTitle">Cloud Content Delivery</label>
+					<a>老爹 可寻址资源系统（laodie Addressable Assets）是 老爹 编辑器和运行时的资源管理系统</a>
+					<label class="ServeLearnMore">了解详情</label>
+				</span>
+				<span class="ServeItem">
+					<label class="ServeImg" style="background-image: url('img/serve003.png')"></label>
+					<label class="ServeTitle">联机对战引擎</label>
+					<a>实时、弹性扩容的高性能联机对战服务，快速构建 Unity 多人游戏，腾讯云平台赋能</a>
+					<label class="ServeLearnMore">了解详情</label>
+				</span>
+				<span class="ServeItem">
+					<label class="ServeImg" style="background-image: url('img/serve004.png')"></label>
+					<label class="ServeTitle">云构建</label>
+					<a>您可以在Editor中将项目从本地上传至云端，或提供项目仓库信息，通过微信小程序监控云端构建进度，构建完成后分发包体给其他用户</a>
+					<label class="ServeLearnMore">了解详情</label>
+				</span>
+			</span>
+		</div>
+		<div id="Footer">
+			<span id="FooterSpan">
+				<span id="CopyRight">
+					<a>
+						Copyright © 2021 laodie Technologies 老爹软件（广东）有限公司 版权所有<br><br>
+						"laodie"、老爹 徽标及其他 老爹 商标是 laodie Technologies 或其附属机构在中国及其他地区的商标或注册商标。其他名称或品牌是其各自所有者的商标。
+					</a><br>
+					<img src="img/copyright.png" alt=""><br>
+					<a>公安部备案号: <a style="color: rgba(110,180,230,1.00)">310XXXXXXXXXXX</a></a>
+				</span>
+				<span id="FooterLink">
+					<label class="FooterLinker">法律条款</label>
+					<label class="FooterLinker">隐私政策</label>
+					<label class="FooterLinker">Cookies</label>
+					<label class="FooterLinker">粤ICP备13XXXXXX号-X</label><br>
+					<label class="FooterLinker">联系我们</label>
+					<label class="FooterLinker">校园招聘</label>
+				</span>
+				<span id="FooterDownload">
+					<a>下载不同版本的 老爹引擎：</a><br>
+					<label class="FooterLinker" data-jump="products.html?item=LaoDiePer">老爹引擎个人版</label>
+					<label class="FooterLinker" data-jump="products.html?item=LaoDiePro">老爹引擎专业版</label>
+					<label class="FooterLinker" data-jump="products.html?item=LaoDieCom">老爹引擎企业版</label>
+				</span>
+			</span>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.rotate.js"></script>
+	<script type="text/javascript" src="js/components.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/CanvasDrawer.js"></script>
+</html>
